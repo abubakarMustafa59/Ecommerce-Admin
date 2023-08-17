@@ -1,0 +1,52 @@
+.table-container {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.custom-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.custom-table th, .custom-table td {
+  padding: 15px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.header-row {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.data-row {
+  transition: background-color 0.3s ease;
+}
+
+.data-row:hover {
+  background-color: #f9f9f9;
+}
+
+.product-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 20%;
+  object-fit: cover;
+}
+
+.buttons {
+  max-width: 100px;
+}
+
+.delete-button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+.delete-button:hover {
+  transform: scale(1.1);
+}

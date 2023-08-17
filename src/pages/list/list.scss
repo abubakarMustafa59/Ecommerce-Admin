@@ -1,0 +1,23 @@
+.list {
+  display: flex;
+  width: 100%;
+  .listContainer {
+    flex: 6;
+  }
+}
+.display{
+  // width: 100%;
+  // display: flex;
+  padding: 20px;
+  // align-items: center;
+  // justify-content: center;
+}
+.prod{
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h2{
+  width: 300px;
+}

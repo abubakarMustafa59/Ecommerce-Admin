@@ -1,0 +1,70 @@
+.Container {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(
+        rgba(215, 95, 95, 0.5),
+        rgba(141, 95, 95, 0.5)
+      );
+      /* url("https://images.pexels.com/photos/6984650/pexels-photo-6984650.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940")
+        center; */
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .Wrapper {
+    width: 25%;
+    padding: 20px;
+    background-color: white;
+  }
+  
+  @media (max-width: 768px) {
+    .Wrapper {
+      width: 75%;
+    }
+  }
+  
+  .Title {
+    font-size: 24px;
+    font-weight: 300;
+  }
+  
+  .Form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .Input {
+    flex: 1;
+    min-width: 40%;
+    margin: 10px 0;
+    padding: 10px;
+  }
+  
+  .Button {
+    width: 40%;
+    border: none;
+    padding: 15px 20px;
+    background-color: teal;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  
+  .Button:disabled {
+    color: green;
+    cursor: not-allowed;
+  }
+  
+  .Link {
+    margin: 5px 0px;
+    font-size: 12px;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+  .Error {
+    color: red;
+  }
+  
