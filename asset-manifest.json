@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/admin-pannel/static/css/main.ab5bf295.css",
+    "main.js": "/admin-pannel/static/js/main.67330848.js",
+    "index.html": "/admin-pannel/index.html",
+    "main.ab5bf295.css.map": "/admin-pannel/static/css/main.ab5bf295.css.map",
+    "main.67330848.js.map": "/admin-pannel/static/js/main.67330848.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ab5bf295.css",
+    "static/js/main.67330848.js"
+  ]
+}
