@@ -22,7 +22,7 @@ const Table = ({ onClickButton }) => {
   const getProducts = async () => {
     try {
       const res = await axios.get(
-        `http://localhost:5000/api/produt/admin/${adminId}`
+        `https://lazy-ruby-goldfish-gown.cyclic.cloud/api/produt/admin/${adminId}`
       );
       setData(res.data);
     } catch (error) {

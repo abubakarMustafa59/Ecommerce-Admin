@@ -10,7 +10,7 @@ const Datatable = () => {
   const [data, setData] = useState();
 useEffect(()=>{
   const getProducts=()=>{
-  const res=axios.get("http://localhost:5000/api/produt");
+  const res=axios.get("https://lazy-ruby-goldfish-gown.cyclic.cloud/api/produt");
   setData(res.data)
   }
   getProducts()
